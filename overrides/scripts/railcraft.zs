@@ -16,8 +16,8 @@ val btpl = <railcraft:boiler_tank_pressure_low>;
 val bffl = <railcraft:boiler_firebox_fluid>;
 val bfso = <railcraft:boiler_firebox_solid>;
 
-val alup = <tconstruct:large_plate>;
-val irop = <tconstruct:large_plate>; //TODO
+val step = <tconstruct:large_plate>.withTag({Material: "steel"});
+val irop = <tconstruct:large_plate>.withTag({Material: "iron"});
 
 val piro = <thermalfoundation:material:32>;
 val pste = <thermalfoundation:material:352>;
@@ -38,7 +38,7 @@ val pipe = <immersiveengineering:metal_device1:6>;
 
 recipes.remove(tsms);
 recipes.addShaped(tsms, [
-    [stel, alup, stel],
+    [stel, step, stel],
     [null, stic, null],
     [null, stic, null]
 ]);

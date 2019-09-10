@@ -8,19 +8,58 @@
 * This software is released under the terms of the MIT license.
 * See https://opensource.org/licenses/MIT for more information
 */
+val grap = <ore:ingotGraphite>;
+val stel = <ore:ingotSteel>;
 
-recipes.remove(<bigreactors:reactorfuelrod>);
-recipes.remove(<bigreactors:reactorcasingcores>);
-recipes.remove(<bigreactors:reactorcomputerport>);
-recipes.remove(<bigreactors:reactorpowertaprf>);
-recipes.remove(<bigreactors:reactorcontrolrod>);
-recipes.remove(<bigreactors:reactorcasing>);
-//Don't touch me!
-//#Add
-recipes.addShaped(<bigreactors:reactorfuelrod> * 4, [[<bigreactors:reactorcasing>, <bigreactors:reactorglass>, <bigreactors:reactorcasing>],[<bigreactors:reactorcasingcores>, <bigreactors:reactorglass>, <bigreactors:reactorcasingcores>], [<bigreactors:reactorcasing>, <bigreactors:reactorglass>, <bigreactors:reactorcasing>]]);
-recipes.addShaped(<bigreactors:reactorcomputerport>, [[<bigreactors:reactorcasing>, <opencomputers:adapter>, <bigreactors:reactorcasing>],[<opencomputers:cable:11250603>, <opencomputers:component:1>, <opencomputers:cable:11250603>], [<bigreactors:reactorcasing>, <opencomputers:adapter>, <bigreactors:reactorcasing>]]);
-recipes.addShaped(<bigreactors:reactorpowertaprf>, [[<bigreactors:reactorcasing>, <thermalfoundation:material:514>, <bigreactors:reactorcasing>],[<bigreactors:reactorcasing>, <immersiveengineering:metal_decoration0>, <bigreactors:reactorcasing>], [<bigreactors:reactorcasing>, <thermalfoundation:material:514>, <bigreactors:reactorcasing>]]);
-recipes.addShaped(<bigreactors:reactorcontrolrod> * 4, [[<minecraft:redstone>, <nuclearcraft:part:8>, <minecraft:redstone>],[<bigreactors:reactorcasing>, <bigreactors:reactorfuelrod>, <bigreactors:reactorcasing>], [<bigreactors:reactorcasing>, <bigreactors:reactorfuelrod>, <bigreactors:reactorcasing>]]);
-recipes.addShaped(<bigreactors:reactorcasingcores> * 4, [[<bigreactors:ingotgraphite>, <minecraft:gold_ingot>, <bigreactors:ingotgraphite>],[<minecraft:gold_ingot>, <bigreactors:ingotyellorium>, <minecraft:gold_ingot>], [<bigreactors:ingotgraphite>, <minecraft:gold_ingot>, <bigreactors:ingotgraphite>]]);
-recipes.addShaped(<bigreactors:reactorcasing> * 8, [[<ore:ingotGraphite>, <ore:ingotSteel>, <ore:ingotGraphite>],[<ore:ingotSteel>, <bigreactors:reactorcasingcores>, <ore:ingotSteel>], [<ore:ingotGraphite>, <ore:ingotSteel>, <ore:ingotGraphite>]]);
-//File End
+val reds = <minecraft:redstone>;
+val gold = <minecraft:gold_ingot>;
+
+val frod = <bigreactors:reactorfuelrod>;
+val crod = <bigreactors:reactorcontrolrod>;
+val case = <bigreactors:reactorcasing>;
+val cas2 = <bigreactors:reactorcasingcores>;
+val pcap = <bigreactors:reactorcomputerport>;
+val rfap = <bigreactors:reactorpowertaprf>;
+val glas = <bigreactors:reactorglass>;
+val yelo = <bigreactors:ingotyellorium>;
+
+val adap = <opencomputers:adapter>;
+val cabl = <opencomputers:cable:11250603>;
+val proc = <opencomputers:component:1>;
+
+val tec = <thermalfoundation:material:514>;
+
+val coi = <immersiveengineering:metal_decoration0>;
+
+val motr = <nuclearcraft:part:8>;
+
+recipes.addShaped(frod * 4, [
+    [case, rfap, case],
+    [cas2, rfap, cas2],
+    [case, rfap,case]
+]);
+recipes.addShaped(pcap, [
+    [case, adap, case],
+    [cabl, proc, cabl],
+    [case, ada, case]
+]);
+recipes.addShaped(rfap, [
+    [case, tec, case],
+    [case, coi, case],
+    [case, tec, case]
+]);
+recipes.addShaped(crod * 4, [
+    [reds, motr, reds],
+    [case, frod, case],
+    [case, frod, case]
+]);
+recipes.addShaped(cas2 * 4, [
+    [grap, gold, grap],
+    [gold, yelo, gold],
+    [grap, gold, grap]
+]);
+recipes.addShaped(case * 8, [
+    [grap, stel, grap],
+    [stel, cas2, stel],
+    [grap, stel, grap]
+]);

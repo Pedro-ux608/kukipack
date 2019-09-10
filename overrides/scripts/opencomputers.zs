@@ -1,6 +1,14 @@
-//This file was created via CT-GUI! Editing it is not advised!
-//Don't touch me!
-//#Remove
+/*
+*  _  __    _   _ _____
+* | |/ /  _| |_(_)_   _|__ __ _ _ __
+* | ' < || | / / | | |/ -_) _` | '  \
+* |_|\_\_,_|_\_\_| |_|\___\__,_|_|_|_|
+* =========================================================
+* Copyright (c) $today.year. KukiTeam, https://kukiteam.xyz.
+* This software is released under the terms of the MIT license.
+* See https://opensource.org/licenses/MIT for more information
+*/
+
 recipes.remove(<opencomputers:material:4>);
 recipes.remove(<opencomputers:material:2>);
 recipes.remove(<opencomputers:component:5>);

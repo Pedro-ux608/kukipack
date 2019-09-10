@@ -10,7 +10,7 @@
 */
 
 val tsms = <railcraft:tool_spike_maul_steel>;
-val tsmi = <railcraft:tool_spike_mau_iron>;
+val tsmi = <railcraft:tool_spike_maul_iron>;
 val btph = <railcraft:boiler_tank_pressure_high>;
 val btpl = <railcraft:boiler_tank_pressure_low>;
 val bffl = <railcraft:boiler_firebox_fluid>;

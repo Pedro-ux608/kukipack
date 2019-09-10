@@ -24,7 +24,7 @@ makeRecipe("coalchicken", <jaopca:item_singularitycoal>);
 
 
 function makeRecipe(id as string, sing as IIngredient) {
-    val chicken = <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:"+id, Gain: 1, Strength: 1})
+    val chicken = <roost:chicken>.withTag({Growth: 1, Chicken: "chickens:"+id, Gain: 1, Strength: 1});
     val egg = <minecraft:egg>;
     recipes.remove(chicken);
     recipes.addShaped(id, chicken, [

@@ -9,6 +9,7 @@
 * See https://opensource.org/licenses/MIT for more information
 */
 
+import crafttweaker.item.IIngredient;
 
 makeRecipe("copperchicken",<avaritia:singularity:5>);
 makeRecipe("tinchicken",<avaritia:singularity:6>);
@@ -31,7 +32,7 @@ makeRecipe("blackquartzchicken",<jaopca:item_singularityquartzblack>);
 makeRecipe("sulfurchicken",<jaopca:item_singularitysulfur>);
 
 function makeRecipe(id as string, sing as IIngredient) {
-    val chicken = <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:"+id, Gain: 1, Strength: 1})
+    val chicken = <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:"+id, Gain: 1, Strength: 1});
     val egg = <minecraft:egg>;
     recipes.remove(chicken);
     recipes.addShaped(id, chicken, [

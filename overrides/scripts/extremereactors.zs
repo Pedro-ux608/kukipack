@@ -33,31 +33,42 @@ val coi = <immersiveengineering:metal_decoration0>;
 
 val motr = <nuclearcraft:part:8>;
 
+recipes.remove(frod);
 recipes.addShaped(frod * 4, [
     [case, rfap, case],
     [cas2, rfap, cas2],
     [case, rfap,case]
 ]);
+
+recipes.remove(pcap);
 recipes.addShaped(pcap, [
     [case, adap, case],
     [cabl, proc, cabl],
     [case, ada, case]
 ]);
+
+recipes.remove(rfap);
 recipes.addShaped(rfap, [
     [case, tec, case],
     [case, coi, case],
     [case, tec, case]
 ]);
+
+recipes.remove(crod);
 recipes.addShaped(crod * 4, [
     [reds, motr, reds],
     [case, frod, case],
     [case, frod, case]
 ]);
+
+recipes.remove(cas2);
 recipes.addShaped(cas2 * 4, [
     [grap, gold, grap],
     [gold, yelo, gold],
     [grap, gold, grap]
 ]);
+
+recipes.remove(case);
 recipes.addShaped(case * 8, [
     [grap, stel, grap],
     [stel, cas2, stel],

@@ -23,8 +23,7 @@ recipes.remove(<opencomputers:material:9>);
 recipes.remove(<opencomputers:material:8>);
 recipes.remove(<opencomputers:material:7>);
 recipes.remove(<opencomputers:material:6>);
-//Don't touch me!
-//#Add
+
 recipes.addShaped(<opencomputers:material:4> * 9, [[null, null, null],[<minecraft:dye:2>, <thermalfoundation:material:128>, <minecraft:dye:2>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
 recipes.addShaped(<opencomputers:component:5>, [[<minecraft:redstone>, <opencomputers:material:11>, <minecraft:redstone>],[<opencomputers:material:9>, <opencomputers:material:9>, <opencomputers:material:9>], [<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>]]);
 recipes.addShaped(<opencomputers:component:4>, [[<minecraft:redstone>, <opencomputers:material:11>, <minecraft:redstone>],[<opencomputers:material:8>, <opencomputers:material:8>, <opencomputers:material:8>], [<industrialforegoing:plastic>, <industrialforegoing:plastic>, <industrialforegoing:plastic>]]);

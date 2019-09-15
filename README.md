@@ -113,3 +113,6 @@
 112. [ItemFilters-1.0.3.12.jar](https://edge.forgecdn.net/files/2699/980/ItemFilters-1.0.3.12.jar)
 113. [ExtremeReactors-1.12.2-0.4.5.67.jar](https://edge.forgecdn.net/files/2722/271/ExtremeReactors-1.12.2-0.4.5.67.jar)
 114. [Immersive Vehicles-1.12.2-14.3.1.jar](https://edge.forgecdn.net/files/2722/479/Immersive%20Vehicles-1.12.2-14.3.1.jar)
+115. [zettaindustries-1.3-1.12.2-161.jar](https://edge.forgecdn.net/files/2636/576/zettaindustries-1.3-1.12.2-161.jar)
+116. [LittleTiles_v1.5.0-pre158_mc1.12.2.jar](https://edge.forgecdn.net/files/2757/264/LittleTiles_v1.5.0-pre158_mc1.12.2.jar)
+117. [CreativeCore_v1.9.62_mc1.12.2.jar](https://edge.forgecdn.net/files/2757/265/CreativeCore_v1.9.62_mc1.12.2.jar)
